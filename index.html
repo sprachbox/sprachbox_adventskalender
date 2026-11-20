@@ -260,7 +260,13 @@ main{max-width:720px;margin:auto;padding:24px 20px 48px}.brand{display:flex;alig
   margin:0 auto !important;
   flex-shrink:1 !important;
 }
-.door-title-wrap h2.approved-door-title{height:90px!important;width:100%!important;display:flex!important;justify-content:center!important;align-items:center!important;margin:0 auto!important;padding:0!important}.door-title-wrap h2.approved-door-title img{display:block!important;width:auto!important;max-width:min(72vw,275px)!important;max-height:83px!important;height:auto!important;object-fit:contain!important;margin:0 auto!important}</style></head><body><main id="app"></main><div id="legal-root" style="max-width:720px;margin:auto;padding:0 20px 30px"><nav class="legal-links" aria-label="Rechtliche Informationen"><button id="imprintButton" aria-controls="imprint" aria-expanded="false">Impressum</button><button id="privacyButton" aria-controls="privacy" aria-expanded="false">Datenschutzerklärung</button></nav><section id="imprint" class="legal-panel" hidden tabindex="-1">
+.door-title-wrap h2.approved-door-title{height:90px!important;width:100%!important;display:flex!important;justify-content:center!important;align-items:center!important;margin:0 auto!important;padding:0!important}.door-title-wrap h2.approved-door-title img{display:block!important;width:auto!important;max-width:min(72vw,275px)!important;max-height:83px!important;height:auto!important;object-fit:contain!important;margin:0 auto!important}
+/* Gebaerdennamen: vollstaendige Bildflaeche ohne Beschneidung anzeigen. */
+.door-title-wrap{width:100%!important;max-width:100%!important;overflow:visible!important;padding:0 12px!important;box-sizing:border-box!important}
+.door-title-wrap h2.approved-door-title{height:auto!important;min-height:90px!important;width:100%!important;max-width:100%!important;overflow:visible!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.door-title-wrap h2.approved-door-title img{display:block!important;width:auto!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;flex-shrink:1!important}
+@media(max-width:530px){.door-title-wrap{padding:0 8px!important}.door-title-wrap h2.approved-door-title img{max-width:100%!important}}
+</style></head><body><main id="app"></main><div id="legal-root" style="max-width:720px;margin:auto;padding:0 20px 30px"><nav class="legal-links" aria-label="Rechtliche Informationen"><button id="imprintButton" aria-controls="imprint" aria-expanded="false">Impressum</button><button id="privacyButton" aria-controls="privacy" aria-expanded="false">Datenschutzerklärung</button></nav><section id="imprint" class="legal-panel" hidden tabindex="-1">
 <h2>Impressum</h2>
 <p><strong>Angaben gemäß § 5 DDG</strong></p>
 <p><strong>Sprachbox – Praxis für Logopädie</strong><br>Inhaberin: Marina Adamopoulos<br>Rathausplatz 3<br>97299 Zell am Main<br>Deutschland</p>
